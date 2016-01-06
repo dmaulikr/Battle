@@ -70,6 +70,9 @@
 		F920955E1C3CE3DA0042C30D /* Battle */ = {
 			isa = PBXGroup;
 			children = (
+				F92095841C3CE8340042C30D /* Controller */,
+				F92095831C3CE82D0042C30D /* View */,
+				F92095821C3CE8260042C30D /* Model */,
 				F92095711C3CE4E60042C30D /* Resources */,
 				F920955F1C3CE3DA0042C30D /* AppDelegate.swift */,
 				F92095611C3CE3DA0042C30D /* ViewController.swift */,
@@ -94,6 +97,27 @@
 				F92095791C3CE5580042C30D /* victory.wav */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		F92095821C3CE8260042C30D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F92095831C3CE82D0042C30D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F92095841C3CE8340042C30D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

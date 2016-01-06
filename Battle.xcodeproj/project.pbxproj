@@ -12,6 +12,14 @@
 		F92095651C3CE3DA0042C30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92095631C3CE3DA0042C30D /* Main.storyboard */; };
 		F92095671C3CE3DA0042C30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92095661C3CE3DA0042C30D /* Assets.xcassets */; };
 		F920956A1C3CE3DA0042C30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92095681C3CE3DA0042C30D /* LaunchScreen.storyboard */; };
+		F920957A1C3CE5580042C30D /* death_yell.wav in Resources */ = {isa = PBXBuildFile; fileRef = F92095721C3CE5580042C30D /* death_yell.wav */; };
+		F920957B1C3CE5580042C30D /* enemy_death.wav in Resources */ = {isa = PBXBuildFile; fileRef = F92095731C3CE5580042C30D /* enemy_death.wav */; };
+		F920957C1C3CE5580042C30D /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = F92095741C3CE5580042C30D /* hit.wav */; };
+		F920957D1C3CE5580042C30D /* hit2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F92095751C3CE5580042C30D /* hit2.wav */; };
+		F920957E1C3CE5580042C30D /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = F92095761C3CE5580042C30D /* lose.wav */; };
+		F920957F1C3CE5580042C30D /* soundtrack.wav in Resources */ = {isa = PBXBuildFile; fileRef = F92095771C3CE5580042C30D /* soundtrack.wav */; };
+		F92095801C3CE5580042C30D /* swipe.wav in Resources */ = {isa = PBXBuildFile; fileRef = F92095781C3CE5580042C30D /* swipe.wav */; };
+		F92095811C3CE5580042C30D /* victory.wav in Resources */ = {isa = PBXBuildFile; fileRef = F92095791C3CE5580042C30D /* victory.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		F92095661C3CE3DA0042C30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F92095691C3CE3DA0042C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F920956B1C3CE3DA0042C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92095721C3CE5580042C30D /* death_yell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death_yell.wav; sourceTree = "<group>"; };
+		F92095731C3CE5580042C30D /* enemy_death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enemy_death.wav; sourceTree = "<group>"; };
+		F92095741C3CE5580042C30D /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		F92095751C3CE5580042C30D /* hit2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit2.wav; sourceTree = "<group>"; };
+		F92095761C3CE5580042C30D /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		F92095771C3CE5580042C30D /* soundtrack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soundtrack.wav; sourceTree = "<group>"; };
+		F92095781C3CE5580042C30D /* swipe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swipe.wav; sourceTree = "<group>"; };
+		F92095791C3CE5580042C30D /* victory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = victory.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 		F920955E1C3CE3DA0042C30D /* Battle */ = {
 			isa = PBXGroup;
 			children = (
+				F92095711C3CE4E60042C30D /* Resources */,
 				F920955F1C3CE3DA0042C30D /* AppDelegate.swift */,
 				F92095611C3CE3DA0042C30D /* ViewController.swift */,
 				F92095631C3CE3DA0042C30D /* Main.storyboard */,
@@ -62,6 +79,21 @@
 				F920956B1C3CE3DA0042C30D /* Info.plist */,
 			);
 			path = Battle;
+			sourceTree = "<group>";
+		};
+		F92095711C3CE4E60042C30D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F92095721C3CE5580042C30D /* death_yell.wav */,
+				F92095731C3CE5580042C30D /* enemy_death.wav */,
+				F92095741C3CE5580042C30D /* hit.wav */,
+				F92095751C3CE5580042C30D /* hit2.wav */,
+				F92095761C3CE5580042C30D /* lose.wav */,
+				F92095771C3CE5580042C30D /* soundtrack.wav */,
+				F92095781C3CE5580042C30D /* swipe.wav */,
+				F92095791C3CE5580042C30D /* victory.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +154,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F920957C1C3CE5580042C30D /* hit.wav in Resources */,
 				F920956A1C3CE3DA0042C30D /* LaunchScreen.storyboard in Resources */,
+				F92095811C3CE5580042C30D /* victory.wav in Resources */,
+				F920957F1C3CE5580042C30D /* soundtrack.wav in Resources */,
+				F92095801C3CE5580042C30D /* swipe.wav in Resources */,
+				F920957A1C3CE5580042C30D /* death_yell.wav in Resources */,
 				F92095671C3CE3DA0042C30D /* Assets.xcassets in Resources */,
+				F920957B1C3CE5580042C30D /* enemy_death.wav in Resources */,
+				F920957D1C3CE5580042C30D /* hit2.wav in Resources */,
 				F92095651C3CE3DA0042C30D /* Main.storyboard in Resources */,
+				F920957E1C3CE5580042C30D /* lose.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
